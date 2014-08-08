@@ -23,7 +23,6 @@
 		B14CA76319915EFF002C2DED /* GetOnThatBusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B14CA76219915EFF002C2DED /* GetOnThatBusTests.m */; };
 		B14CA76D19915F07002C2DED /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B14CA76C19915F07002C2DED /* CheckMate.framework */; };
 		B14CA76F199161AE002C2DED /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B14CA76E199161AE002C2DED /* MapKit.framework */; };
-		B14CA7721991664B002C2DED /* MapViewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B14CA7711991664B002C2DED /* MapViewAnnotation.m */; };
 		B14CA77519916CBC002C2DED /* routeDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14CA77419916CBC002C2DED /* routeDetailsViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -59,8 +58,6 @@
 		B14CA76219915EFF002C2DED /* GetOnThatBusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetOnThatBusTests.m; sourceTree = "<group>"; };
 		B14CA76C19915F07002C2DED /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../../CheckMate.framework; sourceTree = "<group>"; };
 		B14CA76E199161AE002C2DED /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		B14CA7701991664B002C2DED /* MapViewAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewAnnotation.h; sourceTree = "<group>"; };
-		B14CA7711991664B002C2DED /* MapViewAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewAnnotation.m; sourceTree = "<group>"; };
 		B14CA77319916CBC002C2DED /* routeDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = routeDetailsViewController.h; sourceTree = "<group>"; };
 		B14CA77419916CBC002C2DED /* routeDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = routeDetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,8 +130,6 @@
 				B14CA77419916CBC002C2DED /* routeDetailsViewController.m */,
 				B14CA74C19915EFF002C2DED /* ViewController.h */,
 				B14CA74D19915EFF002C2DED /* ViewController.m */,
-				B14CA7701991664B002C2DED /* MapViewAnnotation.h */,
-				B14CA7711991664B002C2DED /* MapViewAnnotation.m */,
 				B14CA74F19915EFF002C2DED /* Images.xcassets */,
 				B14CA73E19915EFF002C2DED /* Supporting Files */,
 			);
@@ -270,7 +265,6 @@
 				B14CA74E19915EFF002C2DED /* ViewController.m in Sources */,
 				B14CA77519916CBC002C2DED /* routeDetailsViewController.m in Sources */,
 				B14CA74819915EFF002C2DED /* AppDelegate.m in Sources */,
-				B14CA7721991664B002C2DED /* MapViewAnnotation.m in Sources */,
 				B14CA74419915EFF002C2DED /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +478,7 @@
 				B14CA76819915EFF002C2DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B14CA76919915EFF002C2DED /* Build configuration list for PBXNativeTarget "GetOnThatBusTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +487,7 @@
 				B14CA76B19915EFF002C2DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

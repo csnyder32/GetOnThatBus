@@ -21,6 +21,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.title = [self.stop objectForKey:@"cta_stop_name"];
     self.stopAddress.text = [self.stop objectForKey:@"cta_stop_name"];
     self.routeLabel.text = [self.stop objectForKey:@"routes"];
     self.transferLabel.text = [self.stop objectForKey:@"inter_modal"];
